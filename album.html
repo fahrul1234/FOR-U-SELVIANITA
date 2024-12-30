@@ -41,12 +41,12 @@
               :style="{transform: `translateZ(0.${items.length + 1 - (idx + 1)}px)`}">
               <div class="content">
                 <div class="content__title">{{ page.title }}</div>
-                <div class="content__img1">
-                  <img :src="page.img1" />
+                <div class="content__img1"><img :src="page.img1" />
                   <div class="content__text">{{ idx + 1 }}</div>
                 </div>
                 <div class="content__img2"><img :src="page.img2" /></div>
                 <div class="content__img3"><img :src="page.img3" /></div>
+                <div class="content__img1"><img :src="page.img4" /></div>
               </div>
             </div>
             <div class="album__page back" :style="{zIndex: idx + 1}"></div>
